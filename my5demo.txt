@@ -1,0 +1,483 @@
+[11:31, 10/3/2023] Waiting a Beautiful Life: Windows Subsystem for Linux is now available in the Microsoft Store!
+You can upgrade by running 'wsl.exe --update' or by visiting https://aka.ms/wslstorepage
+Installing WSL from the Microsoft Store will give you the latest WSL updates, faster.
+For more information please visit https://aka.ms/wslstoreinfo
+
+Welcome to Ubuntu 22.04.2 LTS (GNU/Linux 4.4.0-19041-Microsoft x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+This message is shown once a day. To disable it please create the
+/home/umasankar/.hushlogin file.
+umasankar@DESKTOP-V0VHU0B:~$ mkdir cddemo
+umasankar@DESKTOP-V0VHU0B:~$ cd cddemo
+umasankar@DESKTOP-V0VHU0B:~/cddemo$ git -version
+unknown option: -…
+[19:10, 10/3/2023] Waiting a Beautiful Life: DELL@DESKTOP-V0VHU0B MINGW64 /c
+$ ls
+'$Recycle.Bin'/            'Program Files (x86)'/         hiberfil.sys
+'$WinREAgent'/              ProgramData/                  mygitrepository/
+ BOOTNXT                    Recovery/                    'office 2010'/
+'Documents and Settings'@  'System Volume Information'/   pagefile.sys
+ DumpStack.log.tmp          Users/                        swapfile.sys
+ Intel/                     Windows/                      uma/
+ PerfLogs/                  assignment/
+'Program Files'/            bootmgr
+
+DELL@DESKTOP-V0VHU0B MINGW64 /c
+$ mkdir mydemo4
+
+DELL@DESKTOP-V0VHU0B MINGW64 /c
+$ cd mydemo4
+
+DELL@DESKTOP-V0VHU0B MINGW64 /c/mydemo4
+$ mkdir demofile4
+
+DELL@DESKTOP-V0VHU0B MINGW64 /c/mydemo4
+$ cd demofile4
+
+DELL@DESKTOP-V0VHU0B MINGW64 /c/mydemo4/demofile4
+$ git init
+Initialized empty Git repository in C:/mydemo4/demofile4/.git/
+
+DELL@DESKTOP-V0VHU0B MINGW64 /c/mydemo4/demofile4 (master)
+$ ls
+
+DELL@DESKTOP-V0VHU0B MINGW64 /c/mydemo4/demofile4 (master)
+$ notepad my4demo.txt
+
+DELL@DESKTOP-V0VHU0B MINGW64 /c/mydemo4/demofile4 (master)
+$ git add .
+
+DELL@DESKTOP-V0VHU0B MINGW64 /c/mydemo4/demofile4 (master)
+$ git commit -m "mydemo4 file"
+[master (root-commit) a62ee38] mydemo4 file
+ 1 file changed, 5 insertions(+)
+ create mode 100644 my4demo.txt
+
+DELL@DESKTOP-V0VHU0B MINGW64 /c/mydemo4/demofile4 (master)
+$ git remote add origin https://github.com/Uma-6190/demofile4.git
+
+DELL@DESKTOP-V0VHU0B MINGW64 /c/mydemo4/demofile4 (master)
+$ git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 299 bytes | 99.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Uma-6190/demofile4.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+DELL@DESKTOP-V0VHU0B MINGW64 /c/mydemo4/demofile4 (master)
+$ ls
+my4demo.txt
+
+DELL@DESKTOP-V0VHU0B MINGW64 /c/mydemo4/demofile4 (master)
+$ notepad mydemo5.txt
+
+DELL@DESKTOP-V0VHU0B MINGW64 /c/mydemo4/demofile4 (master)
+$ git add .
+
+DELL@DESKTOP-V0VHU0B MINGW64 /c/mydemo4/demofile4 (master)
+$ git commit -m "commit of mydemo5 file"
+[master fd0678d] commit of mydemo5 file
+ 1 file changed, 47 insertions(+)
+ create mode 100644 mydemo5.txt
+
+DELL@DESKTOP-V0VHU0B MINGW64 /c/mydemo4/demofile4 (master)
+$ git clone https://github.com/Uma-6190/demofile4.git
+Cloning into 'demofile4'...
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 6 (delta 0), reused 3 (delta 0), pack-reused 0
+Receiving objects: 100% (6/6), done.
+
+DELL@DESKTOP-V0VHU0B MINGW64 /c/mydemo4/demofile4 (master)
+$ git push -u origin master
+To https://github.com/Uma-6190/demofile4.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/Uma-6190/demofile4.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+DELL@DESKTOP-V0VHU0B MINGW64 /c/mydemo4/demofile4 (master)
+$ git init .
+Reinitialized existing Git repository in C:/mydemo4/demofile4/.git/
+
+DELL@DESKTOP-V0VHU0B MINGW64 /c/mydemo4/demofile4 (master)
+$ git push -u origin master
+To https://github.com/Uma-6190/demofile4.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/Uma-6190/demofile4.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+DELL@DESKTOP-V0VHU0B MINGW64 /c/mydemo4/demofile4 (master)
+$ git push origin master
+To https://github.com/Uma-6190/demofile4.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/Uma-6190/demofile4.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+DELL@DESKTOP-V0VHU0B MINGW64 /c/mydemo4/demofile4 (master)
+$ git clone git@github.com:Uma-6190/demofile4.git
+fatal: destination path 'demofile4' already exists and is not an empty directory
+.
+
+DELL@DESKTOP-V0VHU0B MINGW64 /c/mydemo4/demofile4 (master)
+$ git push
+To https://github.com/Uma-6190/demofile4.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/Uma-6190/demofile4.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+DELL@DESKTOP-V0VHU0B MINGW64 /c/mydemo4/demofile4 (master)
+$ git push origin master
+To https://github.com/Uma-6190/demofile4.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/Uma-6190/demofile4.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+DELL@DESKTOP-V0VHU0B MINGW64 /c/mydemo4/demofile4 (master)
+$ git pull origin main
+fatal: couldn't find remote ref main
+
+DELL@DESKTOP-V0VHU0B MINGW64 /c/mydemo4/demofile4 (master)
+$
+
+DELL@DESKTOP-V0VHU0B MINGW64 /c/mydemo4/demofile4 (master)
+$ git pull origin master
+remote: Enumerating objects: 4, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 667 bytes | 47.00 KiB/s, done.
+Merge: fd0678d 1440967
+Author: umasankarm <umashankarmantra@gmail.com>
+Date:   Tue Oct 3 18:59:06 2023 +0530
+
+    Merge branch 'master' of https://github.com/Uma-6190/demofile4
+
+commit fd0678d5f836b547686c016971bd7d318db54dcd
+Author: umasankarm <umashankarmantra@gmail.com>
+Date:   Tue Oct 3 18:46:56 2023 +0530
+
+    commit of mydemo5 file
+
+commit 144096701532db34e911549cef1adf24434b9abf
+Author: Uma-6190 <103798030+Uma-6190@users.noreply.github.com>
+Date:   Tue Oct 3 18:43:42 2023 +0530
+
+    Create README.md
+
+commit a62ee381f92efbc0ac3c430aaea17006b4b21610
+Author: umasankarm <umashankarmantra@gmail.com>
+Date:   Tue Oct 3 18:40:50 2023 +0530
+
+    mydemo4 file
+...skipping...
+
+                   SUMMARY OF LESS COMMANDS
+
+      Commands marked with * may be preceded by a number, N.
+      Notes in parentheses indicate the behavior if N is given.
+      A key preceded by a caret indicates the Ctrl key; thus ^K is ctrl-K.
+
+  h  H                 Display this help.
+  q  :q  Q  :Q  ZZ     Exit.
+ ---------------------------------------------------------------------------
+
+                           MOVING
+
+  e  ^E  j  ^N  CR  *  Forward  one line   (or N lines).
+  y  ^Y  k  ^K  ^P  *  Backward one line   (or N lines).
+  f  ^F  ^V  SPACE  *  Forward  one window (or N lines).
+  b  ^B  ESC-v      *  Backward one window (or N lines).
+  z                 *  Forward  one window (and set window to N).
+  w                 *  Backward one window (and set window to N).
+  ESC-SPACE         *  Forward  one window, but don't stop at end-of-file.
+  d  ^D             *  Forward  one half-window (and set half-window to N).
+  u  ^U             *  Backward one half-window (and set half-window to N).
+  ESC-)  RightArrow *  Right one half screen width (or N positions).
+  ESC-(  LeftArrow  *  Left  one half screen width (or N positions).
+  ESC-}  ^RightArrow   Right to last column displayed.
+  ESC-{  ^LeftArrow    Left  to first column.
+  F                    Forward forever; like "tail -f".
+  ESC-F                Like F but stop when search pattern is found.
+  r  ^R  ^L            Repaint screen.
+  R                    Repaint screen, discarding buffered input.
+        ---------------------------------------------------
+        Default "window" is the screen height.
+        Default "half-window" is half of the screen height.
+ ---------------------------------------------------------------------------
+
+                          SEARCHING
+
+  /pattern          *  Search forward for (N-th) matching line.
+  ?pattern          *  Search backward for (N-th) matching line.
+  n                 *  Repeat previous search (for N-th occurrence).
+  N                 *  Repeat previous search in reverse direction.
+  ESC-n             *  Repeat previous search, spanning files.
+  ESC-N             *  Repeat previous search, reverse dir. & spanning files.
+  ESC-u                Undo (toggle) search highlighting.
+  ESC-U                Clear search highlighting.
+  &pattern          *  Display only matching lines.
+        ---------------------------------------------------
+        A search pattern may begin with one or more of:
+        ^N or !  Search for NON-matching lines.
+HELP -- Press RETURN for more, or q when done...skipping...
+Merge: fd0678d 1440967
+Author: umasankarm <umashankarmantra@gmail.com>
+Date:   Tue Oct 3 18:59:06 2023 +0530
+
+    Merge branch 'master' of https://github.com/Uma-6190/demofile4
+
+commit fd0678d5f836b547686c016971bd7d318db54dcd
+Author: umasankarm <umashankarmantra@gmail.com>
+Date:   Tue Oct 3 18:46:56 2023 +0530
+
+    commit of mydemo5 file
+
+commit 144096701532db34e911549cef1adf24434b9abf
+Author: Uma-6190 <103798030+Uma-6190@users.noreply.github.com>
+Date:   Tue Oct 3 18:43:42 2023 +0530
+
+    Create README.md
+
+commit a62ee381f92efbc0ac3c430aaea17006b4b21610
+Author: umasankarm <umashankarmantra@gmail.com>
+Date:   Tue Oct 3 18:40:50 2023 +0530
+
+    mydemo4 file
+
+DELL@DESKTOP-V0VHU0B MINGW64 /c/mydemo4/demofile4 (master)
+$ git diff head head~1
+diff --git a/README.md b/README.md
+deleted file mode 100644
+index c2f79c2..0000000
+--- a/README.md
++++ /dev/null
+@@ -1 +0,0 @@
+-# demofile4
+
+DELL@DESKTOP-V0VHU0B MINGW64 /c/mydemo4/demofile4 (master)
+$ git diff a62ee381f92ef fd0678d5f836b
+diff --git a/mydemo5.txt b/mydemo5.txt
+new file mode 100644
+index 0000000..98813f4
+--- /dev/null
++++ b/mydemo5.txt
+@@ -0,0 +1,47 @@
++
++8:49 AM: ########NOTES FOR JENKINS LAUNCH#######################
++
++1) Go to aws account
++> search ec2
++> instances > launch instances
++> in ami select windows 2019 > t2.micro > next >next> next > in security group add rule (http and custom tcp > 8080 (source is anywhere) ) > review and launch the machine (also create a key p
+air)
++
++> launch the machine via rdp access (select machine>click on connect -> rdp client -> click on password and with the help of keypair generate password)
++>launch machine
++
++2) Go to servermanager -> local server -> on the right side you will see IE enhanced security -> disable it
++
++3) Open internet explorer -> google.com -> search git download -> download and install git for windows
++ https://gitforwindows.org/
++
++4) google.com -> jdk 11 download -> download for windows exe -> take you to an oracle page ->if you dont have account register -> automatically download will start
++
++Another method: https://drive.google.com/file/d/1wI0QX0I29_ZCO3BPOASjwNdzMChZ8J39/view?usp=sharing -> paste it the internet explorer -> the jdk 11 will download
++
++> now go to C drive -> program files -> java -> jdk 11.0.14-> C:\Program Files\Java\jdk-11.0.14
++
++>go to startup menu -> search for environment variables -> go to user variables -> Click on new -> Variable name : JAVA_HOME and varibale value: C:\Program Files\Java\jdk-11.0.14
++(do the same step for system varibles)
++
++>Go back to jdk 11 folder in c drive -> click on bin folder -> open it and copy the path
++after that go to system variables(in environment variables) -> path (double click on the path )-> NEW -> paste the path (C:\Program Files\Java\jdk-11.0.14\bin)
++
++>go to startup menu -> search cmd -> echo %JAVA_HOME%
++if the result is C:\Program Files\Java\jdk-11.0.14 it means our java enviroment variables is set properly)
++
++5)go to google.com ->search maven -> download the binary zip archive  (https://maven.apache.org/download.cgi)
++after maven is downloaded -> the folder will open in front of you -> cut the folder and paste it in the C drive (C:\apache-maven-3.8.5)
++>go to startup menu -> search for environment variables -> go to user variables -> Click on new -> Variable name : M2_HOME and varibale value: paste the apache maven link in c drive C:\apache
+-maven-3.8.5\
++
++(do the same step for system varibles)
++
++>>Go back to maven folder in c drive -> click on bin folder -> open it and copy the path
++after that go to system variables(in environment variables) -> path (double click on the path )-> NEW -> paste the path (C:\apache-maven-3.8.5\bin)
++
++> go to startup menu -> search cmd -> mvn -version
+
+DELL@DESKTOP-V0VHU0B MINGW64 /c/mydemo4/demofile4 (master)
+$ q
+bash: q: command not found
+
+DELL@DESKTOP-V0VHU0B MINGW64 /c/mydemo4/demofile4 (master)
+$ git show  fd0678d5f836b
+commit fd0678d5f836b547686c016971bd7d318db54dcd
+Author: umasankarm <umashankarmantra@gmail.com>
+Date:   Tue Oct 3 18:46:56 2023 +0530
+
+    commit of mydemo5 file
+
+diff --git a/mydemo5.txt b/mydemo5.txt
+new file mode 100644
+index 0000000..98813f4
+--- /dev/null
++++ b/mydemo5.txt
+@@ -0,0 +1,47 @@
++
++8:49 AM: ########NOTES FOR JENKINS LAUNCH#######################
++
++1) Go to aws account
++> search ec2
++> instances > launch instances
++> in ami select windows 2019 > t2.micro > next >next> next > in security group add rule (http and custom tcp > 8080 (source is anywhere) ) > review and launch the machine (also create a key p
+air)
++
++> launch the machine via rdp access (select machine>click on connect -> rdp client -> click on password and with the help of keypair generate password)
++>launch machine
++
++2) Go to servermanager -> local server -> on the right side you will see IE enhanced security -> disable it
++
++3) Open internet explorer -> google.com -> search git download -> download and install git for windows
++ https://gitforwindows.org/
++
++4) google.com -> jdk 11 download -> download for windows exe -> take you to an oracle page ->if you dont have account register -> automatically download will start
++
++Another method: https://drive.google.com/file/d/1wI0QX0I29_ZCO3BPOASjwNdzMChZ8J39/view?usp=sharing -> paste it the internet explorer -> the jdk 11 will download
++
++> now go to C drive -> program files -> java -> jdk 11.0.14-> C:\Program Files\Java\jdk-11.0.14
++
++>go to startup menu -> search for environment variables -> go to user variables -> Click on new -> Variable name : JAVA_HOME and varibale value: C:\Program Files\Java\jdk-11.0.14
++(do the same step for system varibles)
++
++>Go back to jdk 11 folder in c drive -> click on bin folder -> open it and copy the path
++after that go to system variables(in environment variables) -> path (double click on the path )-> NEW -> paste the path (C:\Program Files\Java\jdk-11.0.14\bin)
++
++>go to startup menu -> search cmd -> echo %JAVA_HOME%
++if the result is C:\Program Files\Java\jdk-11.0.14 it means our java enviroment variables is set properly)
++
++5)go to google.com ->search maven -> download the binary zip archive  (https://maven.apache.org/download.cgi)
++after maven is downloaded -> the folder will open in front of you -> cut the folder and paste it in the C drive (C:\apache-maven-3.8.5)
++>go to startup menu -> search for environment variables -> go to user variables -> Click on new -> Variable name : M2_HOME and varibale value: paste the apache maven link in c drive C:\apache
+-maven-3.8.5\
++
++(do the same step for system varibles)
++
+
+
+DELL@DESKTOP-V0VHU0B MINGW64 /c/mydemo4/demofile4 (master)
+$
+
+DELL@DESKTOP-V0VHU0B MINGW64 /c/mydemo4/demofile4 (master)
+$ git annotate mydemo5.txt
+fd0678d5        (umasankarm     2023-10-03 18:46:56 +0530       1)
+fd0678d5        (umasankarm     2023-10-03 18:46:56 +0530       2)8:49 AM: ########NOTES FOR JENKINS LAUNCH#######################
+fd0678d5        (umasankarm     2023-10-03 18:46:56 +0530       3)
+fd0678d5        (umasankarm     2023-10-03 18:46:56 +0530       4)1) Go to aws account
+fd0678d5        (umasankarm     2023-10-03 18:46:56 +0530       5)> search ec2
+fd0678d5        (umasankarm     2023-10-03 18:46:56 +0530       6)> instances > launch instances
+fd0678d5        (umasankarm     2023-10-03 18:46:56 +0530       7)> in ami select windows 2019 > t2.micro > next >next> next > in security group add rule (http and custom tcp > 8080 (source is
+ anywhere) ) > review and launch the machine (also create a key pair)
+fd0678d5        (umasankarm     2023-10-03 18:46:56 +0530       8)
+fd0678d5        (umasankarm     2023-10-03 18:46:56 +0530       9)> launch the machine via rdp access (select machine>click on connect -> rdp client -> click on password and with the help of k
+eypair generate password)
+fd0678d5        (umasankarm     2023-10-03 18:46:56 +0530       10)>launch machine
+fd0678d5        (umasankarm     2023-10-03 18:46:56 +0530       11)
+fd0678d5        (umasankarm     2023-10-03 18:46:56 +0530       12)2) Go to servermanager -> local server -> on the right side you will see IE enhanced security -> disable it
+fd0678d5        (umasankarm     2023-10-03 18:46:56 +0530       13)
+fd0678d5        (umasankarm     2023-10-03 18:46:56 +0530       14)3) Open internet explorer -> google.com -> search git download -> download and install git for windows
+fd0678d5        (umasankarm     2023-10-03 18:46:56 +0530       15) https://gitforwindows.org/
+fd0678d5        (umasankarm     2023-10-03 18:46:56 +0530       16)
+fd0678d5        (umasankarm     2023-10-03 18:46:56 +0530       17)4) google.com -> jdk 11 download -> download for windows exe -> take you to an oracle page ->if you dont have account registe
+r -> automatically download will start
+fd0678d5        (umasankarm     2023-10-03 18:46:56 +0530       18)
+fd0678d5        (umasankarm     2023-10-03 18:46:56 +0530       19)Another method: https://drive.google.com/file/d/1wI0QX0I29_ZCO3BPOASjwNdzMChZ8J39/view?usp=sharing -> paste it the internet e
+xplorer -> the jdk 11 will download
+fd0678d5        (umasankarm     2023-10-03 18:46:56 +0530       20)
+fd0678d5        (umasankarm     2023-10-03 18:46:56 +0530       21)> now go to C drive -> program files -> java -> jdk 11.0.14-> C:\Program Files\Java\jdk-11.0.14
+fd0678d5        (umasankarm     2023-10-03 18:46:56 +0530       22)
+fd0678d5        (umasankarm     2023-10-03 18:46:56 +0530       23)>go to startup menu -> search for environment variables -> go to user variables -> Click on new -> Variable name : JAVA_HOME
+and varibale value: C:\Program Files\Java\jdk-11.0.14
+fd0678d5        (umasankarm     2023-10-03 18:46:56 +0530       24)(do the same step for system varibles)
+fd0678d5        (umasankarm     2023-10-03 18:46:56 +0530       25)
+fd0678d5        (umasankarm     2023-10-03 18:46:56 +0530       26)>Go back to jdk 11 folder in c drive -> click on bin folder -> open it and copy the path
+fd0678d5        (umasankarm     2023-10-03 18:46:56 +0530       27)after that go to system variables(in environment variables) -> path (double click on the path )-> NEW -> paste the path (C:\P
+rogram Files\Java\jdk-11.0.14\bin)
+fd0678d5        (umasankarm     2023-10-03 18:46:56 +0530       28)
+fd0678d5        (umasankarm     2023-10-03 18:46:56 +0530       29)>go to startup menu -> search cmd -> echo %JAVA_HOME%
+fd0678d5        (umasankarm     2023-10-03 18:46:56 +0530       30)if the result is C:\Program Files\Java\jdk-11.0.14 it means our java enviroment variables is set properly)
+fd0678d5        (umasankarm     2023-10-03 18:46:56 +0530       31)
+fd0678d5        (umasankarm     2023-10-03 18:46:56 +0530       32)5)go to google.com ->search maven -> download the binary zip archive  (https://maven.apache.org/download.cgi)
+fd0678d5        (umasankarm     2023-10-03 18:46:56 +0530       33)after maven is downloaded -> the folder will open in front of you -> cut the folder and paste it in the C drive (C:\apache-ma
+ven-3.8.5)
+fd0678d5        (umasankarm     2023-10-03 18:46:56 +0530       34)>go to startup menu -> search for environment variables -> go to user variables -> Click on new -> Variable name : M2_HOME an
+d varibale value: paste the apache maven link in c drive C:\apache-maven-3.8.5\
+fd0678d5        (umasankarm     2023-10-03 18:46:56 +0530       35)
+fd0678d5        (umasankarm     2023-10-03 18:46:56 +0530       36)(do the same step for system varibles)
+fd0678d5        (umasankarm     2023-10-03 18:46:56 +0530       37)
+fd0678d5        (umasankarm     2023-10-03 18:46:56 +0530       38)>>Go back to maven folder in c drive -> click on bin folder -> open it and copy the path
+fd0678d5        (umasankarm     2023-10-03 18:46:56 +0530       39)after that go to system variables(in environment variables) -> path (double click on the path )-> NEW -> paste the path (C:\a
+pache-maven-3.8.5\bin)
+fd0678d5        (umasankarm     2023-10-03 18:46:56 +0530       40)
+
+
+DELL@DESKTOP-V0VHU0B MINGW64 /c/mydemo4/demofile4 (master)
+$
+
+DELL@DESKTOP-V0VHU0B MINGW64 /c/mydemo4/demofile4 (master)
+$ git checkout a62ee381f92efb
+Note: switching to 'a62ee381f92efb'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at a62ee38 mydemo4 file
+
+DELL@DESKTOP-V0VHU0B MINGW64 /c/mydemo4/demofile4 ((a62ee38...))
+$ git switch -
+Previous HEAD position was a62ee38 mydemo4 file
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+DELL@DESKTOP-V0VHU0B MINGW64 /c/mydemo4/demofile4 (master)
