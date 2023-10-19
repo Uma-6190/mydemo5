@@ -481,3 +481,5 @@ Switched to branch 'master'
 Your branch is up to date with 'origin/master'.
 
 DELL@DESKTOP-V0VHU0B MINGW64 /c/mydemo4/demofile4 (master)
+
+Hi, this is the merge conflicts.
