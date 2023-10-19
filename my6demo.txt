@@ -540,3 +540,6 @@ host <domain name> or <ip address>
 Output:
 
 Linux Commands with Examples
+
+
+this is the merge conflict.
